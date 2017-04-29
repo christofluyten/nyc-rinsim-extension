@@ -69,7 +69,7 @@ public class Point implements Serializable {
         final double dy = p1.y - p2.y;
         return Math.sqrt(dx * dx + dy * dy);
     }
-
+//TODO refereren naar de maker
     /**
      * Computes the distance between two points, the coordinates are expressed in longitude and latitude.
      * @param p1 A point.

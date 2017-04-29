@@ -78,6 +78,7 @@ public class GraphRoadModelImpl extends AbstractRoadModel<Loc>
      * @param g            The graph which will be used as road structure.
      * @param b            The builder that contains the properties.
      */
+//    TODO pad meegeven
     protected GraphRoadModelImpl(Graph<? extends ConnectionData> g,
                                  RoadModelBuilders.AbstractGraphRMB<?, ?, ?> b) {
         super(b.getDistanceUnit(), b.getSpeedUnit());
