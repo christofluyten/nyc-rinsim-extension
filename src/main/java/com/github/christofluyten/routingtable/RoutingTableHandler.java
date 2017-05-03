@@ -29,13 +29,11 @@ public class RoutingTableHandler {
     private int nbOfShortestPathCalc;
 
     public static void main(String[] args) throws IOException, ClassNotFoundException {
-        if(args.length == 2 && args[0].getClass().isInstance(String.class) && args[1].getClass().isInstance(String.class)){
+        String mapPath = "/src/main/resources/maps/map500.dot";
+        String tablePath = "/src/main/resources/maps/RoutingTable";
             RoutingTableHandler routingTableHandler = new RoutingTableHandler();
-//        routingTableHandler.createTable("src/main/resources/maps/map500.dot","src/main/resources/RoutingTable");
-            routingTableHandler.createTable(args[0],args[1]);
-        } else{
-            System.out.println("Two paths must be given as argument");
-        }
+            routingTableHandler.createTable(mapPath,tablePath);
+
     }
 
 //TODO units meegeven als argument
