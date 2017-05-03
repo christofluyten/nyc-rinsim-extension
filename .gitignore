@@ -31,3 +31,4 @@ nyctaxidata-to-rinsimscenario.iml
 src/test/
 NewYorkCityTaxiChallenge.iml
 nohup.out
+.idea/artifacts/nyc_rinsim_extension_jar.xml
