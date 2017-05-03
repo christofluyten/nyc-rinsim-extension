@@ -22,26 +22,6 @@
 
     </build>
 
-    <!--<profiles>-->
-        <!--<profile>-->
-            <!--<id>conf</id>-->
-            <!--<build>-->
-                <!--<plugins>-->
-                    <!--<plugin>-->
-                        <!--<groupId>org.apache.maven.plugins</groupId>-->
-                        <!--<artifactId>maven-jar-plugin</artifactId>-->
-                        <!--<version>2.3.1</version>-->
-                        <!--<configuration>-->
-                            <!--<outputDirectory>~/home/christof</outputDirectory>-->
-                        <!--</configuration>-->
-                    <!--</plugin>-->
-                <!--</plugins>-->
-            <!--</build>-->
-        <!--</profile>-->
-    <!--</profiles>-->
-
-
-
     <repositories>
         <repository>
             <id>rinsim</id>
